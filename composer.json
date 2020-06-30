@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "AjayPatidar\\LaravelQuickbooks\\": "src"
+            "AjayPatidar\\LaravelQuickBooks\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AjayPatidar\\LaravelQuickbooks\\Tests\\": "tests"
+            "AjayPatidar\\LaravelQuickBooks\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AjayPatidar\\LaravelQuickbooks\\LaravelQuickBooksServiceProvider"
+                "AjayPatidar\\LaravelQuickBooks\\LaravelQuickBooksServiceProvider"
             ]
         }
     }
