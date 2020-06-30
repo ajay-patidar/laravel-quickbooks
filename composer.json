@@ -1,0 +1,41 @@
+{
+    "name": "ajay-patidar/laravel-quickbooks",
+    "description": "Laravel Quickbooks integration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ajay Patidar",
+            "email": "ajaypatidar1989@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/ajay-patidar/laravel-quickbooks",
+    "keywords": ["Laravel", "laravel-quickbooks"],
+    "require": {
+        "illuminate/support": "~6",
+        "quickbooks/v3-php-sdk": "^5.3.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ajayPatidar\\LaravelQuickBooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ajayPatidar\\LaravelQuickBooks\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ajayPatidar\\LaravelQuickBooks\\LaravelQuickBooksServiceProvider"
+            ],
+            "aliases": {
+                "laravel-quickbooks": "ajayPatidar\\LaravelQuickBooks\\Facades\\LaravelQuickBooks"
+            }
+        }
+    }
+}
