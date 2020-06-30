@@ -1,8 +1,8 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks\Resources;
+namespace AjayPatidar\LaravelQuickBooks\Resources;
 
-use LifeOnScreen\LaravelQuickBooks\QuickBooksResource;
+use AjayPatidar\LaravelQuickBooks\QuickBooksResource;
 use QuickBooksOnline\API\Facades as QuickBooksFacades;
 
 class Purchase extends QuickBooksResource

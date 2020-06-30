@@ -1,6 +1,6 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks;
+namespace AjayPatidar\LaravelQuickBooks;
 
 use Exception;
 use Illuminate\Support\Carbon;
@@ -12,7 +12,7 @@ use QuickBooksOnline\API\DataService\DataService;
 
 /**
  * Class Init
- * @package LifeOnScreen\LaravelQuickBooks
+ * @package AjayPatidar\LaravelQuickBooks
  */
 class QuickBooksAuthenticator
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks;
+namespace AjayPatidar\LaravelQuickBooks;
 
 use Illuminate\Support\Facades\App;
 use QuickBooksOnline\API\DataService\DataService;
 
 /**
  * Class QuickBooksConnection
- * @package LifeOnScreen\LaravelQuickBooks
+ * @package AjayPatidar\LaravelQuickBooks
  */
 class QuickBooksConnection
 {

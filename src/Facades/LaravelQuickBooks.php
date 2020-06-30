@@ -1,6 +1,6 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks\Facades;
+namespace AjayPatidar\LaravelQuickBooks\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -20,22 +20,19 @@
     },
     "autoload": {
         "psr-4": {
-            "ajay-patidar\\LaravelQuickBooks\\": "src/"
+            "AjayPatidar\\LaravelQuickbooks\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ajay-patidar\\LaravelQuickBooks\\Tests\\": "tests"
+            "AjayPatidar\\LaravelQuickbooks\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ajay-patidar\\LaravelQuickBooks\\LaravelQuickBooksServiceProvider"
-            ],
-            "aliases": {
-                "laravel-quickbooks": "ajay-patidar\\LaravelQuickBooks\\Facades\\LaravelQuickBooks"
-            }
+                "AjayPatidar\\LaravelQuickbooks\\LaravelQuickBooksServiceProvider"
+            ]
         }
     }
 }

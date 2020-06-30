@@ -1,6 +1,6 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks;
+namespace AjayPatidar\LaravelQuickBooks;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\App;
 /**
  * Class QuickBooksEntity
  *
- * @package LifeOnScreen\LaravelQuickBooks
+ * @package AjayPatidar\LaravelQuickBooks
  * @property string $quickbooks_id
  */
 abstract class QuickBooksEntity extends Model implements QuickBookable
@@ -24,7 +24,7 @@ abstract class QuickBooksEntity extends Model implements QuickBookable
     protected $quickBooksIdColumn = 'quickbooks_id';
 
     /**
-     * The resource class from LifeOnScreen\LaravelQuickBooks\Resources.
+     * The resource class from AjayPatidar\LaravelQuickBooks\Resources.
      *
      * @var string
      */

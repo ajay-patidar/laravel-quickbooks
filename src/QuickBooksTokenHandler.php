@@ -1,6 +1,6 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks;
+namespace AjayPatidar\LaravelQuickBooks;
 
 class QuickBooksTokenHandler implements QuickBooksTokenHandlerInterface
 {

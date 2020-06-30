@@ -1,6 +1,6 @@
 <?php
 
-namespace LifeOnScreen\LaravelQuickBooks;
+namespace AjayPatidar\LaravelQuickBooks;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\App;
