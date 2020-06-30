@@ -11,7 +11,7 @@ $ composer require ajay-patidar/laravel-quickbooks
 Publish package and run migrations
 
 ``` bash
-$ php artisan vendor:publish
+$ php artisan vendor:publish --provider="AjayPatidar\LaravelQuickBooks\LaravelQuickBooksServiceProvider" --tag="quickbooks.config"
 $ php artisan migrate
 ```
 

@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Request;
 use QuickBooksOnline\API\Core\OAuth\OAuth2\OAuth2LoginHelper;
 use QuickBooksOnline\API\DataService\DataService;
+use Illuminate\Support\Str;
 
 /**
  * Class Init
@@ -23,7 +24,7 @@ class QuickBooksAuthenticator
     public static function getAuthorizationUrl(): string
     {
         $cookieLife  = 30;
-        $cookieValue = str_random(32);
+        $cookieValue = Str::random(32);
         $validUntil  = Carbon::now()->addMinutes($cookieLife)->timestamp;
         Cookie::queue(Cookie::make('quickbooks_auth', $cookieValue, $cookieLife));
         cache(['qb-auth-cookie' => "{$cookieValue}|{$validUntil}"], $cookieLife);
